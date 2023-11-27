@@ -22,14 +22,14 @@ const carsArray= [
     },
 
     {
-        "brand":
-        "model":
+        "brand": "Mercedes",
+        "model": "B2",
         "fuel": "GPL"
     },
 
     {
-        "brand":
-        "model":
+        "brand": "Opel",
+        "model": "Zafira",
         "fuel": "elettrico"
     },
 
@@ -60,13 +60,19 @@ const carsArray= [
     {
         "brand":
         "model":
-        "fuel": 
+        "fuel": "GPL"
     },
 
     {
         "brand":
         "model":
-        "fuel":
+        "fuel": "benzina"
     }
 ]
 
+// USARE FILTER DENTRO MAP ??? (chiedere)
+
+
+const fuelType = carsArray.map("fuel", "benzina");
+
+console.log(fuelType);
