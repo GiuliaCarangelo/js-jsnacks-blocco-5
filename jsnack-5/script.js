@@ -20,4 +20,6 @@ const volleyTeamList = [
     }
 ]
 
-const {score, lostPoints}
+const {score, lostPoints} = volleyTeamList;
+volleyTeamList.score = Math.random;
+console.log(volleyTeamList);
